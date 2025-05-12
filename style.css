@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+}
+.logo-text{
+    font-size: 44px;
+    left: 10px;
+}
+.link{
+    gap: 50px;
+    right: 10px;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    right: 10px;
+}
+.link a:hover{
+    color: orangered;
+}
